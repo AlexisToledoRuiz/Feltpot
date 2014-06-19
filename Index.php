@@ -27,7 +27,7 @@
                 <?php if(isset($_SESSION["usuario"]) and ($_SESSION["usuario"])!= " ")
 				{
 					echo '<span style="color:#6eb121;">Bienvenido ' .ucfirst($_SESSION["usuario"]). '</span>';
-					echo ' &nbsp;<a href="logout.php">Cerrar sesión</a>';
+					echo ' &nbsp;<a href="logout.php">Nos vemos</a>';
 				}
 					else{ ?>
 				<li><a href="login.php"><?php echo utf8_encode($arrayLanguage[4]["nombre".$front->getLanguage()."_txt"])?></a></li>-->
